@@ -1,26 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Dividend from '../src/components/Scratch'
+import ReactJSConstructor from '../src/components/Constructor'
+import Resizer from '../src/components/Resizer'
+import Content from '../src/components/AdminTemplate/Content'
+import Sidebar from '../src/components/AdminTemplate/Sidebar'
+import Header from '../src/components/AdminTemplate/Header'
+import Contact from '../src/components/Contact'
+import AwesomeComponent from '../src/components/AwesomeComponent'
+import AnimatedComponent from '../src/components/Animated'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // return <Dividend />
+  // return <ReactJSConstructor />
+  return <div>
+    {/* <Header />
+    <Sidebar />
+    <Content /> */}
+    <AnimatedComponent />
+  </div>
 }
 
 export default App;
