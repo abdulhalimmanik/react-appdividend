@@ -10,14 +10,15 @@ import Header from '../src/components/AdminTemplate/Header'
 import Contact from '../src/components/Contact'
 import AwesomeComponent from '../src/components/AwesomeComponent'
 import AnimatedComponent from '../src/components/Animated'
+import LoaderComponent from '../src/components/Spinner'
+import StyledComponent from '../src/components/StyledComponent'
+import Table2 from '../src/components/Table2'
 function App() {
   // return <Dividend />
   // return <ReactJSConstructor />
   return <div>
-    {/* <Header />
-    <Sidebar />
-    <Content /> */}
-    <AnimatedComponent />
+    {/* <StyledComponent /> */}
+    <Table2 />
   </div>
 }
 

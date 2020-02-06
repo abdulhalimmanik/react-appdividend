@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { Provider } from 'react-redux';
+// import { injectGlobal } from 'styled-components';
 import * as serviceWorker from './serviceWorker';
 import configureStore from './store/configureStore';
 
@@ -13,4 +14,14 @@ ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementB
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
+
+// injectGlobal`
+//   body {
+//     background-color: #eddb53;
+//     padding: 0;
+//     margin: 0;
+//     font-family: cursive;
+//   }
+// `
+
 serviceWorker.unregister();
